@@ -1,0 +1,6 @@
+.container {
+  background-image: url("/concreteMixer.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 900px;
+}

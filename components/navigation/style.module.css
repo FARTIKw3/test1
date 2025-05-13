@@ -1,0 +1,187 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 60px;
+}
+.navbar__container {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.navbar__menu__list {
+  display: flex;
+  color: #fff;
+  font-size: 16px;
+  gap: 80px;
+  list-style: none;
+}
+.navbar__contact {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.navbar__contact__number {
+  color: #fff;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+.contact__number {
+  font-size: 18px;
+  font-weight: bold;
+}
+.contact__time {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+.navbar__press {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.button__whatsapp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+.navbar__button {
+  background: none;
+  color: #fff;
+  padding: 12px 36px;
+  border-radius: 22px;
+  border: 1px solid #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+.hamburger {
+  display: none;
+  position: relative;
+  cursor: pointer;
+  padding: 0px;
+  border: none;
+  margin: 0;
+  background: none;
+  z-index: 3;
+}
+
+.hamburger.isActive {
+  transform: rotate(90deg);
+}
+
+.hamburgerBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+}
+
+.hamburgerInner,
+.hamburgerInner::before,
+.hamburgerInner::after {
+  display: block;
+  width: 2rem;
+  height: 0.25rem;
+  border-radius: 10px;
+  background-color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburgerInner {
+  position: relative;
+}
+
+.hamburgerInner::before,
+.hamburgerInner::after {
+  content: "";
+  position: absolute;
+  left: 0;
+}
+
+.hamburgerInner::before {
+  top: -8px;
+}
+
+.hamburgerInner::after {
+  bottom: -8px;
+}
+
+.hamburger.isActive .hamburgerInner {
+  transform: rotate(45deg);
+}
+
+.hamburger.isActive .hamburgerInner::before {
+  top: 0;
+  opacity: 0;
+}
+
+.hamburger.isActive .hamburgerInner::after {
+  bottom: 0;
+  transform: rotate(-90deg);
+}
+@media (max-width: 1420px) {
+  .navbar {
+    padding: 24px 10px;
+  }
+}
+@media (max-width: 1320px) {
+  .navbar__menu__list {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 1240px) {
+  .navbar__menu {
+    display: flex;
+    position: fixed;
+    transform: translateX(-100%);
+    transition: 0.5s;
+    top: 0;
+    left: 0;
+    background: #0000009c;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+    height: 100%;
+    z-index: 10;
+    overflow: auto;
+  }
+
+  .navbar__menu__open {
+    display: flex;
+    transform: translateX(0);
+  }
+
+  .navbar__menu__list {
+    flex-direction: column;
+  }
+
+  .hamburger {
+    display: block;
+  }
+  .navbar__container {
+    gap: 15px;
+  }
+}
+@media (max-width: 880px) {
+  .navbar__contact__number {
+    display: none;
+  }
+}
+@media (max-width: 630px) {
+  .navbar__press {
+    display: none;
+  }
+}
