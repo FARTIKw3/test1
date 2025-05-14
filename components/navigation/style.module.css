@@ -30,6 +30,7 @@
 .contact__number {
   font-size: 18px;
   font-weight: bold;
+  font-family: sans-serif;
 }
 .contact__time {
   display: flex;

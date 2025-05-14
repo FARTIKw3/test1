@@ -21,7 +21,7 @@ export const Products = () => {
                 />
               </div>
             </div>
-            <button className={st.card__button}>
+            <button className={st.card__button} title="Добавить в корзину">
               <FaPlus size={22} />
             </button>
             <div className={st.card__press}>
@@ -45,7 +45,7 @@ export const Products = () => {
                 />
               </div>
             </div>
-            <button className={st.card__button}>
+            <button className={st.card__button} title="Добавить в корзину">
               <FaPlus size={22} />
             </button>
             <div className={st.card__press}>
