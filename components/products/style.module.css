@@ -1,0 +1,75 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 20px;
+}
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.title {
+  font-size: 48px;
+  color: #242020;
+  margin: 100px 0 40px;
+}
+.card {
+  max-width: 980px;
+  height: 440px;
+  background-color: #f6f6f6;
+  padding: 40px 40px 0;
+
+  border-radius: 22px;
+  position: relative;
+}
+.card__title {
+  font-size: 36px;
+  color: #242020;
+  font-weight: bold;
+}
+.card__image {
+  max-width: 380px;
+}
+.image {
+  width: 100%;
+}
+
+.card__button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 16px;
+  border-radius: 50%;
+  border: none;
+  background-color: #dc042b;
+  color: #fff;
+}
+.card__corner {
+  transform: rotate(180deg);
+}
+.card__press {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 1150px) {
+  .products {
+    grid-template-columns: 1fr;
+  }
+  .title {
+    margin: 50px 0 20px;
+  }
+}
+@media (max-width: 605px) {
+  .title {
+    font-size: 35px;
+    margin: 20px 0 20px;
+  }
+}
+@media (max-width: 435px) {
+  .card__title {
+    font-size: 22px;
+  }
+}
