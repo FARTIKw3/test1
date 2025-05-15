@@ -1,4 +1,4 @@
-interface SolutionData {
+export interface SolutionData {
   name: string;
   price: string;
   description: string;

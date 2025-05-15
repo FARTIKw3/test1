@@ -3,8 +3,9 @@ import { TbBorderCornerSquare } from "react-icons/tb";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import st from "./style.module.css";
 import { useState } from "react";
+import { SolutionData } from "./data";
 
-export const SolutionCard = ({ item }: { item: any }) => {
+export const SolutionCard = ({ item }: { item: SolutionData }) => {
   const [count, setCount] = useState(0);
 
   const increment = () => setCount((prev) => prev + 1);
