@@ -4,8 +4,11 @@ import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import st from "./style.module.css";
 import Image from "next/image";
-
-export const Form = () => {
+interface FormProps {
+  imageSrc: string;
+  imageAlt?: string;
+}
+export const Form = ({ imageSrc, imageAlt = "image" }: FormProps) => {
   const [phone, setPhone] = useState("");
 
   return (
@@ -48,7 +51,7 @@ export const Form = () => {
         </form>
       </div>
       <div className={st.imageWrapper}>
-        <Image src="/barrels.jpg" alt="barrels" fill className={st.image} />
+        <Image src={imageSrc} alt={imageAlt} fill className={st.image} />
       </div>
     </div>
   );

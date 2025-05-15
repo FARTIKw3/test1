@@ -71,4 +71,7 @@
   .title {
     text-align: start;
   }
+  .container {
+    margin-top: 80px;
+  }
 }
