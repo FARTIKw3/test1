@@ -1,0 +1,28 @@
+.solutionContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-inline: 20px;
+}
+.title {
+  font-size: 48px;
+  color: #242424;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+@media (max-width: 670px) {
+  .solutionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 520px) {
+  .title {
+    font-size: 32px;
+  }
+}
