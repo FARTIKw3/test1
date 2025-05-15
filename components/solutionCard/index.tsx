@@ -38,11 +38,19 @@ export const SolutionCard = ({ item }: { item: SolutionItem }) => {
 
       <div className={st.solution__press}>
         <div className={st.solution__counter}>
-          <button className={st.counter__btn} onClick={decrement}>
+          <button
+            className={st.counter__btn}
+            onClick={decrement}
+            aria-label="Уменьшить количество"
+          >
             <IoIosArrowDown size={18} />
           </button>
           <div>{count}</div>
-          <button className={st.counter__btn} onClick={increment}>
+          <button
+            className={st.counter__btn}
+            onClick={increment}
+            aria-label="Увеличить количество"
+          >
             <IoIosArrowUp size={18} />
           </button>
         </div>
