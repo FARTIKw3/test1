@@ -17,7 +17,6 @@ export default function Home() {
       <Concrete />
       <Solution />
       <Form imageSrc="/excavator.jpg" imageAlt="barrels" />
-      {/* <Slider /> */}
       <About />
     </>
   );
