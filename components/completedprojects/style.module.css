@@ -1,0 +1,41 @@
+.wrapper {
+  padding: 40px 20px;
+  position: relative;
+  color: #000;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.subtitle {
+  max-width: 720px;
+  font-size: 18px;
+  margin: 20px 0 40px;
+  font-weight: 600;
+}
+
+.slide {
+  border-radius: 16px;
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+
+.image {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.caption {
+  margin-top: 8px;
+  font-size: 16px;
+}
+@media (max-width: 500px) {
+  .title {
+    font-size: 24px;
+  }
+  .subtitle {
+    font-size: 14px;
+  }
+}
