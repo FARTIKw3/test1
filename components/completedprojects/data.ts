@@ -1,10 +1,4 @@
-interface ItemProhectSlides {
-  src: string;
-  alt: string;
-  caption: string;
-}
-
-export const projectSlides: ItemProhectSlides[] = [
+export const projectSlides = [
   {
     src: "/slide1.png",
     alt: "Д. Янино заливка ЖБИ конструкций",
