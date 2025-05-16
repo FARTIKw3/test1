@@ -1,0 +1,86 @@
+.container {
+  background-image: url(/truck.png);
+  height: 650px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 85px 68px 68px 60px;
+  margin-top: 130px;
+}
+.card {
+  max-width: 760px;
+  /* height: 491px; */
+  padding: 40px 100px 40px 40px;
+  background-color: #dc042cc9;
+  border-radius: 24px;
+}
+.card__title {
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.card__container {
+  max-width: 530px;
+  padding-left: 30px;
+  margin-bottom: 40px;
+}
+.card__list {
+  font-size: 18px;
+}
+.card__list li {
+  font-family: sans-serif;
+  margin-top: 10px;
+  color: #fff;
+}
+.card__button {
+  padding: 22px 56px;
+  border-radius: 32px;
+  font-size: 20px;
+  background-color: #fff;
+  color: #dc042b;
+  font-weight: bold;
+  border: none;
+}
+@media (max-width: 820px) {
+  .card {
+    padding: 30px;
+  }
+  .card__title {
+    font-size: 32px;
+  }
+  .card__list {
+    font-size: 16px;
+  }
+}
+@media (max-width: 625px) {
+  .card__button {
+    padding: 22px 28px;
+    font-size: 16px;
+  }
+  .card__list {
+    font-size: 14px;
+  }
+}
+@media (max-width: 555px) {
+  .card__title {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .card {
+    padding: 10px;
+    padding-bottom: 20px;
+  }
+  .card__button {
+    padding: 16px 22px;
+    font-size: 14px;
+  }
+  .card__container {
+    margin-bottom: 10px;
+  }
+  .card__list {
+    font-size: 12px;
+  }
+  .card {
+    padding-top: 10;
+  }
+}

@@ -5,6 +5,7 @@ import { Form } from "@/components/form";
 import { Concrete } from "@/components/concrete";
 import { Solution } from "@/components/solution";
 import { About } from "@/components/about";
+import { Delivery } from "@/components/delivery";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Solution />
       <Form imageSrc="/excavator.jpg" imageAlt="barrels" />
       <About />
+      <Delivery />
     </>
   );
 }
