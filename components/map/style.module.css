@@ -1,0 +1,8 @@
+.container {
+  max-width: 1440px;
+  margin: 100px auto 40px;
+  padding-inline: 20px;
+}
+.map {
+  border-radius: 24px;
+}

@@ -9,6 +9,7 @@ import { Delivery } from "@/components/delivery";
 import { ProjectSlider } from "@/components/completedprojects";
 import { Accordion } from "@/components/accordion";
 import { Contact } from "@/components/contact";
+import { Map } from "@/components/map";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <Accordion />
       <Form imageSrc="/shpatel.jpg" imageAlt="shpatel" />
       <Contact />
+      <Map />
     </>
   );
 }
