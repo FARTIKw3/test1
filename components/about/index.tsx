@@ -36,7 +36,6 @@ export const About = () => {
             </div>
           ))}
         </div>
-        {/* <Slider /> */}
       </div>
     </div>
   );
