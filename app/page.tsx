@@ -10,6 +10,7 @@ import { ProjectSlider } from "@/components/completedprojects";
 import { Accordion } from "@/components/accordion";
 import { Contact } from "@/components/contact";
 import { Map } from "@/components/map";
+import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
       <Form imageSrc="/shpatel.jpg" imageAlt="shpatel" />
       <Contact />
       <Map />
+      <Footer />
     </>
   );
 }
