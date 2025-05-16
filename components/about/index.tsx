@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { aboutData } from "./data";
 import st from "./style.module.css";
-import { Slider } from "../slider";
 
 export const About = () => {
   return (

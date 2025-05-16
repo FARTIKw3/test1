@@ -4,7 +4,6 @@ import { Stamps } from "@/components/stamps";
 import { Form } from "@/components/form";
 import { Concrete } from "@/components/concrete";
 import { Solution } from "@/components/solution";
-import { Slider } from "@/components/slider";
 import { About } from "@/components/about";
 
 export default function Home() {
