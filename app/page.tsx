@@ -7,6 +7,7 @@ import { Solution } from "@/components/solution";
 import { About } from "@/components/about";
 import { Delivery } from "@/components/delivery";
 import { ProjectSlider } from "@/components/completedprojects";
+import { Accordion } from "@/components/accordion";
 
 export default function Home() {
   return (
@@ -17,10 +18,12 @@ export default function Home() {
       <Form imageSrc="/barrels.jpg" imageAlt="barrels" />
       <Concrete />
       <Solution />
-      <Form imageSrc="/excavator.jpg" imageAlt="barrels" />
+      <Form imageSrc="/excavator.jpg" imageAlt="excavator" />
       <About />
       <Delivery />
       <ProjectSlider />
+      <Accordion />
+      <Form imageSrc="/shpatel.jpg" imageAlt="shpatel" />
     </>
   );
 }
