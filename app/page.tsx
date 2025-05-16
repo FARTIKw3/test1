@@ -8,6 +8,7 @@ import { About } from "@/components/about";
 import { Delivery } from "@/components/delivery";
 import { ProjectSlider } from "@/components/completedprojects";
 import { Accordion } from "@/components/accordion";
+import { Contact } from "@/components/contact";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <ProjectSlider />
       <Accordion />
       <Form imageSrc="/shpatel.jpg" imageAlt="shpatel" />
+      <Contact />
     </>
   );
 }
