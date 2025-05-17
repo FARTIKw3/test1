@@ -71,7 +71,7 @@ export const Concrete = () => {
           <div key={index} className={st.view__card}>
             <div className={st.view__header}>
               <div className={st.view__title__container}>
-                <h2 className={st.view__title}>Бетон B7.5 M-100</h2>
+                <h2 className={st.view__title}>{item.name}</h2>
                 <div>
                   <span className={st.concrete__span__red}>
                     {item.price}
@@ -80,7 +80,7 @@ export const Concrete = () => {
                 </div>
               </div>
               <div className={st.view__block__name}>
-                <span>M-100</span>
+                <span>{item.nameBlock}</span>
               </div>
             </div>
             <div className={st.view__characteristic}>
