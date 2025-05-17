@@ -29,9 +29,4 @@ export const concreteData: ConcreteData[] = [
     class: "B22.5 ",
     price: "3 200₽",
   },
-  {
-    name: "Бетон товарный M-350",
-    class: "B25 ",
-    price: "3 200₽",
-  },
 ];

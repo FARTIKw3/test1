@@ -1,0 +1,43 @@
+.solution__press {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+.solution__counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 0;
+  /* width: 120px; */
+  border: 2px solid #000;
+  border-radius: 32px;
+  font-size: 16px;
+  font-weight: 800;
+}
+.counter__btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 5px;
+  padding-inline: 3px;
+}
+.solution__button {
+  font-size: 18px;
+  padding: 10px 16px;
+  width: 100%;
+  border-radius: 32px;
+  background: #dc042b;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+@media (max-width: 1005px) {
+  .solution__press {
+    flex-direction: column;
+  }
+  .solution__counter {
+    justify-content: space-around;
+  }
+}
